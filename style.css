@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-optical-sizing: auto;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.Home {
+
+    font-size: larger;
+    font-size: 50px;
+    padding: 10px;
+
+}
+
+.Home strong {
+    color: aliceblue;
+    border-radius: 8px;
+}
+
+.button-next a button {
+
+    border: 3px solid rgb(255, 255, 255);
+    background: transparent;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    margin-left: 15%;
+    font-size: 25px;
+    font-weight: 10;
+    color: white;
+    cursor: pointer;
+    transition: 0.6s;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+
+}
+
+.button-contect a button {
+
+    border: 3px solid rgb(255, 255, 255);
+    background: transparent;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    margin-left: 22%;
+    font-size: 25px;
+    font-weight: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 0.6s;
+    padding: 10px 15px;
+    letter-spacing: 2px;
+
+}
+
+.button-contect a button:hover {
+
+    background-color: darkblue;
+
+}
+
+.button-next a button:hover {
+
+    background-color: darkblue;
+
+}

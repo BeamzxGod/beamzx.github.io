@@ -1,0 +1,81 @@
+body {
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/689/20/945/web-development-minimalism-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+/* สไตล์ของ container */
+.login-container {
+
+    width: 300px;
+    padding: 40px;
+    margin: 0 auto;
+    border: 2px solid white;
+    /* เพิ่มขอบให้ container */
+    border-radius: 10px;
+    /* ทำให้มุมขอบโค้ง */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    /* เพิ่มเงา */
+}
+
+/* จัดตำแหน่ง heading ให้อยู่ทางซ้าย */
+h2 {
+
+    text-align: center;
+    /* จัด heading ให้อยู่ทางซ้าย */
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+
+}
+
+
+input {
+
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 3px solid #ccc;
+    margin-right: 1vh;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    /* จัดข้อความภายใน input ให้อยู่ด้านซ้าย */
+}
+
+button {
+
+    width: 300px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.login-container .sign-in {
+
+    padding-top: 10%;
+    text-align: center;
+    color: white;
+
+}
+
+.login-container .sign-in a {
+
+    color: cyan;
+
+}
